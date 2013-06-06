@@ -7,9 +7,9 @@
 	<link rel="stylesheet" href="/public/css/style.css">
 	<link rel="stylesheet" href="/ninja_snowball.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-	<script type="text/javascript" src="http://localhost:8000/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="http://198.61.224.235:8000/socket.io/socket.io.js"></script>
 	<script type="text/javascript">
-		var socket = io.connect('http://localhost:8000');
+		var socket = io.connect('http://198.61.224.235:8000');
 
 		// create player button creates a new player for all other users
 		socket.on('display_new_player', function(remote_username){

@@ -2,4 +2,22 @@ img#ninja1{
 position: absolute;
 /*left:100px;*/
 /*top:150px;	*/
+height: 40px;
 }
+
+div.player{
+position: absolute;
+/*left:100px;*/
+/*top:150px;	*/
+}
+
+img.snowball{
+position: absolute;
+/*left:100px;*/
+/*top:150px;	*/
+height: 15px;
+}
+
+/*ul li{
+font-size: 14px;	
+}*/
